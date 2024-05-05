@@ -52,3 +52,4 @@ var delTweets = function () {
     window.scrollBy(0, 3000);
 }
 setInterval(delTweets, timeout); // run script multipile times
+delTweets(); // run for the first time

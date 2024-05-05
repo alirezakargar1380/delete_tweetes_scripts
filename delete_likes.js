@@ -36,4 +36,6 @@ var delTweets = function () {
     // scroll down to load more tweets
     window.scrollBy(0, 10000);
 }
+
 setInterval(delTweets, timeout); // run script multipile times
+delTweets(); // run for the first time
