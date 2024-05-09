@@ -1,21 +1,21 @@
 # 
-<h1 align="center">Welcome to Delete Tweets & Likes Script 👋</h1>
+<h1 align="center">Welcome to Delete twittes & Likes Script 👋</h1>
 <p align="center">
-  <a href="https://twitter.com/alirezakargar_b">
-    <img alt="Twitter: alirezakargar_b" src="https://img.shields.io/twitter/follow/alirezakargar_b.svg?style=social" target="_blank" />
+  <a href="https://twitter.com/develop__it">
+    <img alt="Twitter: develop__it" src="https://img.shields.io/twitter/follow/develop__it.svg?style=social" target="_blank" />
   </a>
 </p>
 
-if you want to delete all of your tweets and the tweets that you like, this script can help you.
+if you want `to delete all of your twittes`, or `the twittes that you like`, or `unfollow users who don't follow back to you` this script can help you.
 ### 🟢🟢it's all free!🟢🟢
 
 
 
 # How To Run This Script
 
-### for deleting your tweets:
+### for deleting your twittes:
 #### 1️⃣ login into your tweeter account: https://twitter.com/i/flow/login from your PC browser.
-#### 2️⃣ go to your profile page: https://twitter.com/{your-account-username} -> Example https://twitter.com/alirezakargar_b
+#### 2️⃣ go to your profile page: https://twitter.com/{your-account-username} -> Example https://twitter.com/develop__it
 #### 3️⃣ right click and select inspect
 #### 4️⃣ go to Console page
 #### 5️⃣ copy code from delete_tweets.js file and paste them is the Console page and press Enter button
@@ -24,10 +24,20 @@ if you want to delete all of your tweets and the tweets that you like, this scri
 
 ### for deleting your Likes:
 #### 1️⃣ login into your tweeter account: https://twitter.com/i/flow/login from your PC browser.
-#### 2️⃣ go to your profile page and click on **Likes section**: https://twitter.com/{your-account-username}/likes -> Example https://twitter.com/alirezakargar_b/likes
+#### 2️⃣ go to your profile page and click on **Likes section**: https://twitter.com/{your-account-username}/likes -> Example https://twitter.com/develop__it/likes
 #### 3️⃣ right click and select inspect
 #### 4️⃣ go to Console page
 #### 5️⃣ copy code from delete_likes.js file and paste them is the Console page and press Enter button
+
+
+#
+
+### for deleting users who dont follow back to you:
+#### 1️⃣ login into your tweeter account: https://twitter.com/i/flow/login from your PC browser.
+#### 2️⃣ go to your profile page and click on **following section**: https://twitter.com/{your-account-username}/following -> Example https://twitter.com/develop__it/following
+#### 3️⃣ right click and select inspect
+#### 4️⃣ go to Console page
+#### 5️⃣ copy code from unfollow_users.js file and paste them is the Console page and press Enter button
 
 ## Show your support
 
@@ -37,5 +47,5 @@ Please ⭐️ this repository if this project helped you!
 
 👤 **Alireza Kargar**
 
-- Twitter: [@alirezakargar_b](https://twitter.com/alirezakargar_b)
+- Twitter: [@develop__it](https://twitter.com/develop__it)
 - Github: [@alirezakargar1380](https://github.com/alirezakargar1380)
