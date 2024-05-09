@@ -9,14 +9,14 @@
  *  NOTE:
  *      increase timeout if any suspend or rate limit happens
  */
-var timeout = 5;
+var timeout = 3;
 
 // end - app settings
 
 // app variables
 //      Don't change this
-var deletedTweets = 0;
 timeout = timeout * 1000
+let unfollowedUsers = 0
 
 var unfollowUsersWhoDontFollowBackToYou = function () {
     document.querySelectorAll('[data-testid="UserCell"]').forEach(function (v, i, a) {
@@ -28,7 +28,6 @@ var unfollowUsersWhoDontFollowBackToYou = function () {
             v.querySelectorAll('div[data-testid$="-unfollow"]').forEach(function (btn) {
                 try {
                     btn.click();
-                    return
                 } catch (error) {
                     console.error(error)
                 }
@@ -36,7 +35,10 @@ var unfollowUsersWhoDontFollowBackToYou = function () {
 
             document.querySelectorAll('div[data-testid="confirmationSheetConfirm"]').forEach(function (v3, i3, a3) {
                 v3.click();
+                unfollowedUsers++
             });
+
+            console.log(unfollowedUsers + ' users are unfollow')
         }
     });
 
