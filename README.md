@@ -13,7 +13,8 @@ if you want `to delete all of your twittes`, or `the twittes that you like`, or 
 
 # How To Run This Script
 
-🟥 **if you don't know how to run this script, watch my video on youtube:** https://youtu.be/PSg9WS6-MWo
+🟥 **if you don't know how to run this script, watch my video on youtube:**
+> https://youtu.be/PSg9WS6-MWo
 
 ### for deleting your twittes:
 #### 1️⃣ login into your tweeter account: https://twitter.com/i/flow/login from your PC browser.
