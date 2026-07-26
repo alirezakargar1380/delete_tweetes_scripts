@@ -57,7 +57,7 @@ var delTweets = function () {
     });
 
     // scroll down to load more tweets
-    window.scrollBy(0, 3000);
+    window.scrollBy(0, 100000);
 }
 setInterval(delTweets, timeout); // run script multipile times
 delTweets(); // run for the first time
