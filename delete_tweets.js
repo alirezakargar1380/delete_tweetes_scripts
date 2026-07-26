@@ -59,5 +59,11 @@ var delTweets = function () {
     // scroll down to load more tweets
     window.scrollBy(0, 100000);
 }
-setInterval(delTweets, timeout); // run script multipile times
+const iterval = setInterval(delTweets, timeout); // run script multipile times
 delTweets(); // run for the first time
+
+
+// ❌❌❌❌❌❌❌❌
+// NOTE: to stop the script, you can run this command in console
+// clearInterval(iterval)
+// ❌❌❌❌❌❌❌❌
