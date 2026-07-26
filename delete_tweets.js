@@ -28,7 +28,7 @@ var delTweets = function () {
     console.log('Remaining: ', tweetsRemaining + ', deleted:', deletedTweets);
 
     // delete tweets
-    Array.from(document.querySelectorAll('article[data-testid="tweet"]')).reverse().forEach(function (tweetsArticle) {
+    Array.from(document.querySelectorAll('article[data-testid="tweet"]')).reverse().slice(0, 10).forEach(function (tweetsArticle) {
         tweetsArticle.querySelectorAll('[aria-label="More"]').forEach(async function (v, i, a) {
             v.click();
             
@@ -48,7 +48,7 @@ var delTweets = function () {
     });
 
     // un retweet tweets
-    Array.from(document.querySelectorAll('[data-testid="unretweet"]')).reverse().forEach(function (v3, i3, a3) {
+    Array.from(document.querySelectorAll('[data-testid="unretweet"]')).reverse().slice(0, 10).forEach(function (v3, i3, a3) {
         v3.click();
         document.querySelectorAll('[data-testid="unretweetConfirm"]').forEach(function (v5) {
             deletedTweets++
